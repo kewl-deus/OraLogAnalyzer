@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.1"?>
+
+<product name="OraLogAnalyzer" id="OraLogAnalyzer.OraLogAnalyzer" application="OraLogAnalyzer.OlaApplication" useFeatures="false">
+
+   <configIni use="default"/>
+
+   <launcherArgs>
+      <programArgsLin>-data /tmp/olaworkspace</programArgsLin>
+      <programArgsWin>-data c:\temp\olaworkspace</programArgsWin>
+      <vmArgs>-Xmx512m</vmArgs>
+   </launcherArgs>
+
+   <windowImages i16="/OraLogAnalyzer/icons/texteditor16x16.gif" i32="/OraLogAnalyzer/icons/texteditor32x32.gif"/>
+
+   <splash
+      location="OraLogAnalyzer" />
+   <launcher name="OraLogAnalyzer">
+      <solaris/>
+      <win useIco="false">
+         <bmp
+            winSmallHigh="/OraLogAnalyzer/icons/texteditor16x16.bmp"
+            winMediumHigh="/OraLogAnalyzer/icons/texteditor32x32.bmp"/>
+      </win>
+   </launcher>
+
+   <plugins>
+      <plugin id="OraLogAnalyzer"/>
+      <plugin id="com.ibm.icu"/>
+      <plugin id="org.apache.xerces"/>
+      <plugin id="org.eclipse.core.commands"/>
+      <plugin id="org.eclipse.core.contenttype"/>
+      <plugin id="org.eclipse.core.expressions"/>
+      <plugin id="org.eclipse.core.filesystem"/>
+      <plugin id="org.eclipse.core.filesystem.win32.x86" fragment="true"/>
+      <plugin id="org.eclipse.core.jobs"/>
+      <plugin id="org.eclipse.core.runtime"/>
+      <plugin id="org.eclipse.core.runtime.compatibility.auth"/>
+      <plugin id="org.eclipse.core.runtime.compatibility.registry" fragment="true"/>
+      <plugin id="org.eclipse.equinox.common"/>
+      <plugin id="org.eclipse.equinox.preferences"/>
+      <plugin id="org.eclipse.equinox.registry"/>
+      <plugin id="org.eclipse.help"/>
+      <plugin id="org.eclipse.jface"/>
+      <plugin id="org.eclipse.jface.text"/>
+      <plugin id="org.eclipse.osgi"/>
+      <plugin id="org.eclipse.swt"/>
+      <plugin id="org.eclipse.swt.win32.win32.x86" fragment="true"/>
+      <plugin id="org.eclipse.text"/>
+      <plugin id="org.eclipse.ui"/>
+      <plugin id="org.eclipse.ui.workbench"/>
+      <plugin id="org.eclipse.ui.workbench.texteditor"/>
+   </plugins>
+
+</product>

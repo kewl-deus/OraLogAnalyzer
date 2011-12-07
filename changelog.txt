@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------------
+Version 0.14
+--------------------------------------------------------------------------------------
+- Sortierbarkeit der Fehlerliste
+--------------------------------------------------------------------------------------
+Version 0.13
+--------------------------------------------------------------------------------------
+- Optimiertes Syntaxhighlighting durch Buffering und Verwendung von Parserergebnissen:
+  Zeitersparnis ca. 50% bei grossen Dateien (> 5 MB)
+- Konfigparameter (data) für Workspace-Ordner: Unterbindet das Anlegen eines
+  workspace-Ordners im Dateipfad bei Öffnung über Kontextmenü
+
+--------------------------------------------------------------------------------------
+Version 0.12
+--------------------------------------------------------------------------------------
+- Drag & Drop für Dateien
+- Unterstützung von Unix Dateiformat
+- Erkennung von Fehlertyp "IMP"
+- Neue Spalte "Laufende Nr." in Fehlerliste
+- Änderung des Perspektiven-Layouts von Oben-Unten nach Rechts-Links
+
+--------------------------------------------------------------------------------------
+Version 0.11
+--------------------------------------------------------------------------------------
+- JVM-Paramter (Xmx) für Heap-Zuweisung: Ermöglicht Einlesen grosser Dateien (> 5 MB)
+- Startparameter "Logdateiname": Ermöglicht Datei öffnen über Kontextmenü
+- Fortschrittsanzeigen für Parsen und Syntaxhighlighting
+
+--------------------------------------------------------------------------------------
+Version 0.10
+--------------------------------------------------------------------------------------
+- Erstrelease
